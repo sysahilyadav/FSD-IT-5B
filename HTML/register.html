@@ -4,8 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register here</title>
+<link rel="stylesheet" href="/CSS/register.css">
+   
 </head>
 <body>
-    <h1>Register here</h1>
+    
+   
+     <div  id="con">
+        <h1 id="heading" >Register here</h1>
+       <div>
+         <label for="name">Name:</label>
+       
+        <input type="text" placeholder="enter your name">
+
+       </div>
+        
+       <div>
+         <label for="Mobile-Number">Mobile Number</label>
+        
+        <input type="tel" name="Mobile-Number" id="Mobile-Number" placeholder="Enter your mobile number">
+       </div>
+       <div>
+        <label for="Mail">Mail</label>
+      
+        <input type="email" id="Mail" placeholder="enter your mail"></div>
+     
+        <div>
+            <label for="DOB">Date Of Birth:</label>
+         <input type="date" name="DOB" id="DOB">
+        </div>
+       
+        <div>
+            <label for="gender">Gender:</label>
+       <div id="select-gender">
+        <input type="radio" name="gender" id="gender">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="gender">
+        <label for="female">Female</label></div>
+        </div>
+       <div>
+         <label for="Adrress">Address:</label>
+       
+        <textarea name="Adrress" id="Address" placeholder="enter your current address"></textarea>
+       </div>
+      
+      <div id="select-branch">
+          <label for="branch">Branch</label>
+        
+
+        <select name="branch" id="Branch">
+            <option value="CSE">CSE</option>
+            <option value="IT">IT</option>
+            <option value="ECE">ECE</option>
+            <option value="MECHANIC">ME</option>
+            <option value="CE">CE</option>
+      </div>
+        </select>
+     <div id="semester">
+        
+        <label for="semester">Semester:</label>
+      
+        <input type="number">
+     </div>
+<br>
+       <div id="select-button">
+         <button type="submit" name="register" id="register" class="button">REGISTER</button>
+        <button type="submit" name="RESET" id="reset" class="button">RESET</button></div>
+        
+    </div>
+     
+   
+    
 </body>
 </html>

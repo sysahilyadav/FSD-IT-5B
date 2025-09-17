@@ -1,0 +1,58 @@
+
+body{
+    background-color: oklab(36.754% -0.00546 -0.00524 / 0.579);
+  
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+h1
+{
+    align-self: center;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    margin-left:15px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+#select-gender{
+    flex-direction: row;
+    margin-left: -5px;
+}
+#select-button{
+flex-direction: row;
+justify-content: space-around;
+
+
+
+}
+
+input,select{
+    border-radius: 5px;
+}
+
+#con{
+    width: 400px;
+    height: 550px;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+#register{
+    border-radius: 5px;
+    background-color: green;
+ 
+}
+#reset{
+    background-color: red;
+    border-radius: 5px;
+    
+}
+#semester{
+   margin-left: 4px;
+}
